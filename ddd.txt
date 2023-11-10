@@ -1,0 +1,21 @@
+// app.get("/products",async function listAllProducts(req,res) {
+//   try {
+//     // const response = await api.get();
+//     // console.log(">>>>>>>>",response.data.length);
+//     const product= await axios({
+//       method:'GET',
+//       url : 'https://wpondc.ensdevops.com/wp-json/wc/v2/products',
+//       auth: {
+//         username: consumerKey,
+//     password: ConsumerSecret
+//       }
+//     }) 
+//     console.log("product=====>",product.data.length)
+//   res.status(200).json({
+//     data:product.data,
+//   })
+//   } catch (error) {
+//     console.error('Error retrieving products:', error);
+//     throw error;
+//   }
+// })
